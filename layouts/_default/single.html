@@ -42,6 +42,13 @@
       <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
+    <script src="https://utteranc.es/client.js"
+        repo="mhrk04/mhrk04.github.io"
+        issue-term="pathname"
+        theme="icy-dark"
+        crossorigin="anonymous"
+        async>
+</script>
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
